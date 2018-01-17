@@ -1,6 +1,12 @@
 ## why
 
 
+## 前后端的职责
+
+* 前端负责展现和交互<!-- .element: class="fragment" data-fragment-index="1" -->
+* 后端负责业务逻辑和数据<!-- .element: class="fragment" data-fragment-index="2" -->
+
+
 ## google、facebook 是否前后端分离?
 
 据说都是全栈，任何高级工程师都必须了解从浏览器到服务器全部过程<!-- .element: class="fragment" data-fragment-index="1" -->
@@ -29,7 +35,7 @@
 * 其他：webassembly、nodejs、ES7、游戏引擎、图表框架、...<!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-### 国内特殊国情导致的兼容性
+### 国内特殊国情
 
 * 从业人员平均技术水平相对偏低，每一个人只能做特定的事，导致前后端互相依赖，开发效率较低<!-- .element: class="fragment" data-fragment-index="1" -->
 * 国内操作系统 × 机型 × 端<!-- .element: class="fragment" data-fragment-index="2" -->

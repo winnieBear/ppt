@@ -3,9 +3,10 @@
 
 ### 优点
 
-* 前后端通过接口通信，前端负责展现和交互，后端负责业务逻辑和数据<!-- .element: class="fragment" data-fragment-index="1" -->
-* 切换页面时，前端只需要请求数据，不用返回除了数据之外的html、css等，性能较好<!-- .element: class="fragment" data-fragment-index="2" -->
-* 前后端可以并行开发，不再互相依赖；可以单独对接口和前端交互进行测试<!-- .element: class="fragment" data-fragment-index="3" -->
+* 前后端通过接口通信，前端负责展现和交互，后端负责业务逻辑和数据,分工明确<!-- .element: class="fragment" data-fragment-index="1" -->
+* 切换页面时性能较好，前端只需要请求数据，不用返回除了数据之外的html、css<!-- .element: class="fragment" data-fragment-index="2" -->
+* 大部分渲染工作在浏览器端，降低了服务器运算成本<!-- .element: class="fragment" data-fragment-index="3" -->
+* 前后端可以并行开发，不再互相依赖；可以单独对接口和前端交互进行测试<!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 ### 缺点

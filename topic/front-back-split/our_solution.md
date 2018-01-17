@@ -1,10 +1,10 @@
 ## 平台的实践
 
-* 基于 jello 进行定制插件开发，扬长避短
-* 充分利用了jello 对 velocity 模板的语法扩充（继承、组件、重载的特性）
-* 根据页面使用的组件情况，自动完成构建配置
-* 舍弃原方案的渲染时，页面依赖的静态资源根据map.json动态生成，而是变成构建时自动生成,方便排查问题
-* 更方便后端的接入
+* 基于 jello 进行定制插件开发，扬长避短<!-- .element: class="fragment" data-fragment-index="1" -->
+* 充分利用了jello 对 velocity 模板的语法扩充（继承、组件、重载的特性）<!-- .element: class="fragment" data-fragment-index="2" -->
+* 根据页面使用的组件情况，自动完成构建配置<!-- .element: class="fragment" data-fragment-index="3" -->
+* 舍弃原方案的渲染时，页面依赖的静态资源根据map.json动态生成，而是变成构建时自动生成,方便排查问题<!-- .element: class="fragment" data-fragment-index="4" -->
+* 更方便后端的接入<!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 ## 实践情况
