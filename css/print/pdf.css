@@ -6,7 +6,8 @@
  */
 
 * {
-	-webkit-print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  color:#000;
 }
 
 body {
@@ -14,7 +15,8 @@ body {
 	border: 0;
 	padding: 0;
 	float: none !important;
-	overflow: visible;
+  overflow: visible;
+  background: #fff;
 }
 
 html {
@@ -169,4 +171,15 @@ ul, ol, div, p {
 	display: block;
 	position: absolute;
 	font-size: 14px;
+}
+
+.reveal.rtl .slides,
+.reveal.rtl .slides h1,
+.reveal.rtl .slides h2,
+.reveal.rtl .slides h3,
+.reveal.rtl .slides h4,
+.reveal.rtl .slides h5,
+.reveal.rtl .slides h6,
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
+  color:#000 !important;
 }
